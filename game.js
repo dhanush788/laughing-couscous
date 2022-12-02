@@ -1,5 +1,5 @@
 //Timer remove comment atlast
- /*
+ 
  var timeLeft = 0;
     var elem = document.getElementById('timer');
     
@@ -11,7 +11,7 @@
         timeLeft++;
       
     }
-*/
+
 
 
  var initDemo = function(my_Canvas){
