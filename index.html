@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+   <body>
+      <div class="navbar">
+         <div class="logo">
+             <img src="Please.png" class="img">
+         </div>
+         
+         <div class="navigation">
+             <p class="para">Time</li>
+             <p class="para" id="timer">0 s</li>
+            </div>
+            <div class="right">
+         <select id="level" >
+             <option>3*3</option>
+             <option>4*4</option>
+             <option>5*5</option>
+             <option>6*6</option>
+           </select>
+         </div>
+     </div>
+     
+     <div class="canvas">
+        <div>
+         <canvas width = "400" height = "400" id = "my_Canvas1" onclick="test()" ></canvas>
+         <canvas width = "400" height = "400" id = "my_Canvas2" onclick="test()"></canvas>
+         <canvas width = "400" height = "400" id = "my_Canvas3" onclick="test()"></canvas>
+         <canvas width = "400" height = "400" id = "my_Canvas4" onclick="test()"></canvas>
+         <canvas width = "400" height = "400" id = "my_Canvas5" onclick="test()"></canvas>
+         <canvas width = "400" height = "400" id = "my_Canvas6" onclick="test()"></canvas>
+        </div>
+     </div>
+     
+   </body>
+   <script src="game.js"></script>
+</html>
